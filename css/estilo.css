@@ -1,10 +1,37 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
 
+
+body{
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin: 0px; 
+}
 
 #logo{
     height: 50px;
-    width: 25px;
+    width: 20px;
 }
 
+
+header{
+    height: 60px;
+    background: rgb(226,145,181);
+    background: radial-gradient(circle, rgba(226,145,181,1) 0%, rgba(131,177,232,0.8872275472689075) 100%);
+}
+
+main{
+    background-color: black;
+}
+
+footer{
+    background: rgb(226,145,181);
+    background: radial-gradient(circle, rgba(226,145,181,1) 0%, rgba(131,177,232,0.8872275472689075) 100%);
+    align-content: center   
+}
 
 
 
