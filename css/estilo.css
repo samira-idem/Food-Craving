@@ -24,7 +24,10 @@ header{
     background: radial-gradient(circle, rgba(226,145,181,1) 0%, rgba(131,177,232,0.8872275472689075) 100%);
 }
 
-
+#img{
+    width: 450px;
+    height: 310px;
+}
 
 
 
