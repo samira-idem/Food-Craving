@@ -34,19 +34,15 @@ main{
 footer{
     background: rgb(226,145,181);
     background: radial-gradient(circle, rgba(226,145,181,1) 0%, rgba(131,177,232,0.8872275472689075) 100%); 
-    height: 50px;  
+      
 }
 
 .nav-link{
     margin-left: 15px;
 }
 
-.texto{
-    display: flex;
-    justify-content: center;
-    margin-left: 220px;
-    margin-right: 220px;
-    color: azure;
+#texto{
+ color: azure;
 }
 
 
