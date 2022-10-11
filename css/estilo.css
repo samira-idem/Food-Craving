@@ -44,7 +44,7 @@ header{
 }
 
 #card :hover{
-    background: #e9a8c4;
+    background: #e9b8cd;
     transition: background-color 2s;
     border-radius: 12px;
 }
