@@ -38,11 +38,6 @@ body header #logo .nav-link {
   transition: background-color 2s;
 }
 
-#img_v {
-  height: 320px;
-  width: 450px;
-}
-
 footer {
   background: rgb(226, 145, 181);
   background: radial-gradient(circle, rgb(226, 145, 181) 0%, rgba(131, 177, 232, 0.8872275473) 100%);
