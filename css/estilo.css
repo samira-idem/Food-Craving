@@ -35,7 +35,6 @@ header{
 }
 
 #card{
-    border-radius: 12px;
     background: #8db5e5 !important;
     transition: background-color 2s;
     margin-left: 10px !important;
@@ -46,7 +45,6 @@ header{
 #card :hover{
     background: #e9b8cd;
     transition: background-color 2s;
-    border-radius: 12px;
 }
 
 
@@ -64,41 +62,6 @@ footer{
 #texto{
  color: azure;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 576px) {  }
 
