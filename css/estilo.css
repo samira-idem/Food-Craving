@@ -10,26 +10,17 @@ body {
   margin: 0px;
   width: auto;
 }
-
-#logo {
-  height: 50px;
-  width: 20px;
-}
-
-header {
+body header {
   height: 60px;
   background: rgb(226, 145, 181);
   background: radial-gradient(circle, rgb(226, 145, 181) 0%, rgba(131, 177, 232, 0.8872275473) 100%);
 }
-
-#img {
-  width: 450px;
-  height: 310px;
+body header #logo {
+  height: 50px;
+  width: 20px;
 }
-
-#img_v {
-  height: 320px;
-  width: 450px;
+body header #logo .nav-link {
+  margin-left: 15px;
 }
 
 #card {
@@ -39,21 +30,17 @@ header {
   margin-right: 10px !important;
   margin-top: 25px !important;
 }
-
 #card :hover {
   background: #e9b8cd;
   transition: background-color 2s;
 }
 
+#img_v {
+  height: 320px;
+  width: 450px;
+}
+
 footer {
   background: rgb(226, 145, 181);
   background: radial-gradient(circle, rgb(226, 145, 181) 0%, rgba(131, 177, 232, 0.8872275473) 100%);
-}
-
-.nav-link {
-  margin-left: 15px;
-}
-
-#texto {
-  color: azure;
 }/*# sourceMappingURL=estilo.css.map */
