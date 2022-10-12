@@ -1,0 +1,62 @@
+*{
+    margin: 0 !important;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    margin: 0px; 
+    width: auto;
+}
+
+#logo{
+    height: 50px;
+    width: 20px;
+}
+
+header{
+    height: 60px;
+    background: rgb(226,145,181);
+    background: radial-gradient(circle, rgba(226,145,181,1) 0%, rgba(131,177,232,0.8872275472689075) 100%);
+}
+
+#img{
+    width: 450px;
+    height: 310px;
+}
+
+#img_v{
+    height: 320px;
+    width: 450px;
+}
+
+#card{
+    background: #8db5e5 !important;
+    transition: background-color 2s;
+    margin-left: 10px !important;
+    margin-right:10px !important;
+    margin-top: 25px !important;
+}
+
+#card :hover{
+    background: #e9b8cd;
+    transition: background-color 2s;
+}
+
+footer{
+    background: rgb(226,145,181);
+    background: radial-gradient(circle, rgba(226,145,181,1) 0%, rgba(131,177,232,0.8872275472689075) 100%); 
+      
+}
+
+.nav-link{
+    margin-left: 15px;
+}
+
+#texto{
+    color: azure;
+   }
+   
+   
