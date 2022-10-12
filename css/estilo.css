@@ -1,7 +1,8 @@
 * {
   margin: 0 !important;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -25,6 +26,7 @@ body header #logo .nav-link {
 
 #card {
   background: #8db5e5 !important;
+  -webkit-transition: background-color 2s;
   transition: background-color 2s;
   margin-left: 10px !important;
   margin-right: 10px !important;
@@ -32,6 +34,7 @@ body header #logo .nav-link {
 }
 #card :hover {
   background: #e9b8cd;
+  -webkit-transition: background-color 2s;
   transition: background-color 2s;
 }
 
@@ -43,4 +46,4 @@ body header #logo .nav-link {
 footer {
   background: rgb(226, 145, 181);
   background: radial-gradient(circle, rgb(226, 145, 181) 0%, rgba(131, 177, 232, 0.8872275473) 100%);
-}/*# sourceMappingURL=estilo.css.map */
+}
