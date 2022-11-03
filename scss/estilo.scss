@@ -5,15 +5,15 @@
 }
 
 body{
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: $fuente;
     font-size: 16px;
     margin: 0px; 
     width: auto;
 
     header{
         height: 60px;
-        background: $rosa;
-        background: radial-gradient(circle, $rosa 0%, $celeste 100%);
+        background: map-get($map: $colores, $key: "rosa" );
+        background: radial-gradient(circle, map-get($map: $colores, $key: "rosa" ) 0%, map-get($map: $colores, $key: "celeste" ) 100%);
     
         #logo{
             height: 50px;
@@ -30,14 +30,14 @@ body{
 }
 
 #card{
-    background: $celeste !important;
+    background: map-get($map: $colores, $key: "celeste" ) !important;
     transition: background-color 2s;
     margin-left: 10px !important;
     margin-right:10px !important;
     margin-top: 25px !important;
 
     & :hover{
-        background: $rosa;
+        background: map-get($map: $colores, $key: "rosa" );
         transition: background-color 2s;
         
     }
@@ -45,8 +45,8 @@ body{
 
 
 footer{
-    background: $rosa;
-    background: radial-gradient(circle, $rosa 0%, $celeste 100%); 
+    background: map-get($map: $colores, $key: "rosa" );
+    background: radial-gradient(circle, map-get($map: $colores, $key: "rosa" ) 0%, map-get($map: $colores, $key: "celeste" ) 100%); 
       
 }
 
