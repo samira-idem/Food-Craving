@@ -12,8 +12,8 @@ body{
 
     header{
         height: 60px;
-        background: rgb(226,145,181);
-        background: radial-gradient(circle, rgba(226,145,181,1) 0%, rgba(131,177,232,0.8872275472689075) 100%);
+        background: $rosa;
+        background: radial-gradient(circle, $rosa 0%, $celeste 100%);
     
         #logo{
             height: 50px;
@@ -30,14 +30,14 @@ body{
 }
 
 #card{
-    background: #8db5e5 !important;
+    background: $celeste !important;
     transition: background-color 2s;
     margin-left: 10px !important;
     margin-right:10px !important;
     margin-top: 25px !important;
 
     & :hover{
-        background: #e9b8cd;
+        background: $rosa;
         transition: background-color 2s;
         
     }
@@ -45,8 +45,8 @@ body{
 
 
 footer{
-    background: rgb(226,145,181);
-    background: radial-gradient(circle, rgba(226,145,181,1) 0%, rgba(131,177,232,0.8872275472689075) 100%); 
+    background: $rosa;
+    background: radial-gradient(circle, $rosa 0%, $celeste 100%); 
       
 }
 
