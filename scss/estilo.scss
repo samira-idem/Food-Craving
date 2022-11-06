@@ -9,6 +9,7 @@ body{
     font-size: 16px;
     margin: 0px; 
     width: auto;
+    
 
 
 
@@ -41,13 +42,15 @@ footer{
       
 }
 
+@mixin borde {
+   border: 3px;
+   border-color: beige;
+   border-radius: 5px;
+}
 
-
-
-
-
-
-
+img {
+    @include borde()
+}
 
 
 

@@ -11,18 +11,6 @@ body {
   margin: 0px;
   width: auto;
 }
-body header {
-  height: 60px;
-  background: rgb(226, 145, 181);
-  background: radial-gradient(circle, rgb(226, 145, 181) 0%, rgba(131, 177, 232, 0.8872275473) 100%);
-}
-body header #logo {
-  height: 50px;
-  width: 20px;
-}
-body header #logo .nav-link {
-  margin-left: 15px;
-}
 
 #card {
   background: #8db5e5 !important;
