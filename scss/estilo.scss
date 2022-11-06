@@ -29,6 +29,8 @@ body{
 
 }
 
+// Animacion
+
 #card{
     background: map-get($map: $colores, $key: "celeste" ) !important;
     transition: background-color 2s;
