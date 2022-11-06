@@ -35,20 +35,25 @@ body{
     margin-left: 10px !important;
     margin-right:10px !important;
     margin-top: 25px !important;
+      
+
 
     & :hover{
-        background: map-get($map: $colores, $key: "rosa" );
+        background: map-get($map: $colores, $key: "rosa");
         transition: background-color 2s;
         
-    }
+        }
+
 }
 
 
 footer{
     background: map-get($map: $colores, $key: "rosa" );
     background: radial-gradient(circle, map-get($map: $colores, $key: "rosa" ) 0%, map-get($map: $colores, $key: "celeste" ) 100%); 
+  
       
 }
+
 
 
 
