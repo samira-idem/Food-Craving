@@ -10,21 +10,6 @@ body{
     margin: 0px; 
     width: auto;
 
-    header{
-        height: 60px;
-        background: map-get($map: $colores, $key: "rosa" );
-        background: radial-gradient(circle, map-get($map: $colores, $key: "rosa" ) 0%, map-get($map: $colores, $key: "celeste" ) 100%);
-    
-        #logo{
-            height: 50px;
-            width: 20px;
-    
-            .nav-link{
-                margin-left: 15px;
-            }
-        }
-    }
-
 
 
 }
