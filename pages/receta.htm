@@ -10,35 +10,35 @@
 </head>
 <body>
   <!-- Navegador -->
-    <header class="container-fluid">
-        <nav class="row h-100 d-jus navbar navbar-expand-lg navbar-light sticky-top fixed-bottom sm-dropdown">
+    <header class="container-bordev">
+        <nav class="row h-100 d-jus navbar navbar-expand-lg navbar-light sticky-top fixed-bottom sm:dropdown">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="../assets/imagenes/logo.png" alt="Logo de la web" class="d-inline-block align-text-top" id="logo">
               </a>
               <h2>Food Craving</h2>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler sm:btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+              <div class="collapse navbar-collapse sm:dropdown-menu" id="navbarNav">
+                <ul class="navbar-nav ms-auto" sm:aria-labelledby="dropdownMenuLink">
                   <li class="nav-item">
-                    <a class="nav-link sm-dropdown-menu" href="../index.html">Inicio</a>
+                    <a class="nav-link sm:dropdown-item" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link sm-dropdown-menu" aria-current="page" href="./receta.htm">Recetas</a>
+                    <a class="nav-link sm:dropdown-item" aria-current="page" href="./receta.htm">Recetas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link sm-dropdown-menu" href="./vegetarianos.html">Vegetarianos</a>
+                    <a class="nav-link sm:dropdown-item" href="./vegetarianos.html">Vegetarianos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link sm-dropdown-menu" href="./veganos.html">Veganos</a>
+                    <a class="nav-link sm:dropdown-item" href="./veganos.html">Veganos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link sm-dropdown-menu" href="./postres.html" tabindex="-1" aria-disabled="true">Postres</a>
+                    <a class="nav-link sm:dropdown-item" href="./postres.html" tabindex="-1" aria-disabled="true">Postres</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link sm-dropdown-menu" href="./contacto.html">Contacto</a>
+                    <a class="nav-link sm:dropdown-item" href="./contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -46,58 +46,9 @@
           </nav>
     </header>
 
-    <main class="container-fluid">
-      <div class="row sm-col">
+    <main class="container-bordev">
+      <div class="row col-md-12 ">
         <!-- Receta 1 -->
-        <section class=" col card shadow p-3 mb-5 bg-body rounded col" style="width:18rem;" id="card"> 
-          <h3 class="d-flex justify-content-center">Pollo gratinado con papas al horno</h3>
-          <img src="../assets/imagenes/pollo.jpg" class="card-img-top img-thumbnail" alt="Pollo gratinado">
-          
-          <div class="col card-body">
-            <h5 class="d-flex justify-content-center">INGREDIENTES PARA POLLO</h5>
-            <ul>
-            <li>Pechugas de pollo 2und.</li>
-            <li>Cebollas 2und.</li>
-            <li>Crema de leche 250ml.</li>
-            <li>Huevo 1und.</li>
-            <li>Queso muzzarella (a gusto).</li>
-            <li>Queso tybo (a gusto).</li>
-            </ul>
-         
-            <h5 class="d-flex justify-content-center">PASOS A SEGUIR</h5>
-         
-              <li>Cortar las pechugas de pollo en cubos.</li>
-              <li>Cortar la cebolla en juliana.</li>
-              <li>En una sarten con un poco de aceite cocinar primero el pollo hasta que este dorado.</li>
-              <li>Por otro lado dorar las cebollas.</li>
-              <li>En un recipiente colocar la crema, el huevo, sal y pimienta a gusto y mexclar.</li>
-              <li>En una fuente (apta para horno) colocar le pollo junto con la cebolla, agregar la mezcla de crema con huevo, el queso muzzarella (cordado en cubitos y el queso tybo (rallado).</li>
-              <li>Llevar a horno precalentado a 180° hasta que gratine.</li>
-          
-            <h5 class="d-flex justify-content-center">INGREDIENTES PARA PAPAS</h5>
-            <li>Papas 500gr.</li>
-            <li>Pimenton.</li>
-            <li>Aji.</li>
-            <li>Sal y pimienta.</li>
-         
-        
-           <h5 class="d-flex justify-content-center">PASOS A SEGUIR</h5>
-          
-           <li>Pelar las papas y cortar en cubo o rodajas.</li>
-           <li>Color en una placa previamente aceitada.</li>
-           <li>Condimentar (a gusto) con:</li> 
-           <li>Sal y pimienta.</li>
-           <li>Pimenton.</li>
-           <li>Aji.</li>
-           <li>Mandar a horno precalentado a 180°.</li>
-           <li>Una vez doradas dar vuelta y condimentar nuevamente por el otro lado.</li>
-        
-            <h5 class="d-flex justify-content-center">¡Emplatar y disfrutar!</h5>
-            <h7 class="d-flex justify-content-center">Los ingredientes varian segun la cantidad de personas.</h7>
-            </ul>
-          </div>
-        </section>
-        <!-- Receta 2 -->
         <section class="col card shadow p-3 mb-5 bg-body rounded" id="card" style="width:18rem;">
           <h3 class="d-flex justify-content-center">Milanesa con pure</h3>
           <img src="../assets/imagenes/milanesa.png" class="card-img-top img-thumbnail" id="img" alt="Milanesa con pure">
@@ -158,6 +109,55 @@
                  <h5 class="d-flex justify-content-center">¡Emplatar y disfrutar!</h5>
                  <h7 class="d-flex justify-content-center"> La cantidad de ingredientes varia segun la cantidad de personas.</h7>
                </ul>
+          </div>
+        </section>
+        <!-- Receta 2 -->
+        <section class=" col card shadow p-3 mb-5 bg-body rounded" style="width:18rem;" id="card"> 
+          <h3 class="d-flex justify-content-center">Pollo gratinado con papas al horno</h3>
+          <img src="../assets/imagenes/pollo.jpg" class="card-img-top img-thumbnail" alt="Pollo gratinado">
+          
+          <div class="col card-body">
+            <h5 class="d-flex justify-content-center">INGREDIENTES PARA POLLO</h5>
+            <ul>
+            <li>Pechugas de pollo 2und.</li>
+            <li>Cebollas 2und.</li>
+            <li>Crema de leche 250ml.</li>
+            <li>Huevo 1und.</li>
+            <li>Queso muzzarella (a gusto).</li>
+            <li>Queso tybo (a gusto).</li>
+            </ul>
+         
+            <h5 class="d-flex justify-content-center">PASOS A SEGUIR</h5>
+         
+              <li>Cortar las pechugas de pollo en cubos.</li>
+              <li>Cortar la cebolla en juliana.</li>
+              <li>En una sarten con un poco de aceite cocinar primero el pollo hasta que este dorado.</li>
+              <li>Por otro lado dorar las cebollas.</li>
+              <li>En un recipiente colocar la crema, el huevo, sal y pimienta a gusto y mexclar.</li>
+              <li>En una fuente (apta para horno) colocar le pollo junto con la cebolla, agregar la mezcla de crema con huevo, el queso muzzarella (cordado en cubitos y el queso tybo (rallado).</li>
+              <li>Llevar a horno precalentado a 180° hasta que gratine.</li>
+          
+            <h5 class="d-flex justify-content-center">INGREDIENTES PARA PAPAS</h5>
+            <li>Papas 500gr.</li>
+            <li>Pimenton.</li>
+            <li>Aji.</li>
+            <li>Sal y pimienta.</li>
+         
+        
+           <h5 class="d-flex justify-content-center">PASOS A SEGUIR</h5>
+          
+           <li>Pelar las papas y cortar en cubo o rodajas.</li>
+           <li>Color en una placa previamente aceitada.</li>
+           <li>Condimentar (a gusto) con:</li> 
+           <li>Sal y pimienta.</li>
+           <li>Pimenton.</li>
+           <li>Aji.</li>
+           <li>Mandar a horno precalentado a 180°.</li>
+           <li>Una vez doradas dar vuelta y condimentar nuevamente por el otro lado.</li>
+        
+            <h5 class="d-flex justify-content-center">¡Emplatar y disfrutar!</h5>
+            <h7 class="d-flex justify-content-center">Los ingredientes varian segun la cantidad de personas.</h7>
+            </ul>
           </div>
         </section>
         <!-- Receta 3 -->
