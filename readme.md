@@ -15,5 +15,25 @@ Esta dirigida para todas las personas tanto las que son unos genios en la cocina
 
 ▫️ SASS
 
+<h2 align="center"> Muestra de código </h2>
+
+```
+<div id="carouselExampleControls" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-group">
+              <div class="card bg-dark">
+                
+                <div class="card-body">
+                  <h5 class="card-title text-light"> La pizza hawaiana fue inventada en Canadá.</h5>
+                  <br>
+                  <p class="card-text text-light">La idea de poner piña se le ocurrió a un inmigrante griego en Chatham-Kent, 
+                  Ontario, en 1962. La pizza fue nombrada "hawaiana" por la marca de fruta que se usó.</p>
+                </div>
+              </div>
+              <div class="card bg-dark">
+              
+    ```
+
 
 
